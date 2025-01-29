@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    font-style: italic;
+   
+}
+
+.formuler{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+    border: 2px;
+   
+}
+
+.container{
+    border:2px;
+   
+}
+
+label{
+    display:block;
+    float:left;
+    width:150px;
+    color: blue;
+    gap: 20px;
+    }
+    
+input{
+    float: left;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+button{
+    border:2px;
+    border-style: solid blue;
+    background-color: blue;
+    
+    
+}
+
+p.imc{
+   display: flex;
+   margin:auto;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   font-size: 20px;
+   color: blue;
+    
+}
+
+p.imcstyle{
+   display: flex;
+   margin:auto;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   font-weight: bold; 
+   color: blue;      
+}
