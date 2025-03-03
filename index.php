@@ -55,7 +55,7 @@ $imc= ($poids/($taille * $taille))*10000;         // formule imc= (poids en kg) 
 
 
 
-echo "<p class='imc'> votre IMC est  de: " . number_format($imc, 1) . "</p>"; 
+echo "<p class='imc'> votre IMC est  de: " . number_format ($imc, 1) . "</p>"; 
 
 
 $typeImc = "";
